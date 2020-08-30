@@ -1,0 +1,149 @@
+body{
+	margin: 0;
+	padding: 0;
+	min-width: 1024px;
+	max-width: 1366px;
+	cursor: default;
+	background: #e4e4e4;
+	background: url(images/fon.png);
+	font-family: Troika;
+	margin: 0 auto;
+}
+	
+
+@font-face {
+    font-family: Troika; /* Гарнитура шрифта */
+    src: url(fonts/8944.otf); /* Путь к файлу со шрифтом */
+}
+
+
+.header{
+	position: relative;
+	min-width: 1024px;
+	height:100px;
+	border: 0px solid red;
+	margin: 0px auto;
+}
+
+.menu{
+	position: absolute;
+	float: right;
+	min-width: 500px;
+	height: 40px;
+	border:0px solid red;
+	top: 25px; /* прикрепить к верху родителя */
+  	right: 25px;
+}
+
+.logo{
+	position: absolute;
+	float: left;
+	position: absolute;
+	min-width: 400px;
+	height: 70px;
+	border:0px solid red;
+	top: 10px; /* прикрепить к верху родителя */
+  	left: 25px;
+  	color:#1B1B1B;
+	text-align: left;
+  	line-height: 70px;
+  	font-size: 80px;
+	background-color: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+}
+
+up{
+	font-size: 30px;
+}
+red{
+	color: #F1684E;
+}
+size60{
+	font-size: 60px;
+}
+size40{
+	font-size: 39px;
+}
+
+
+
+.button{
+	display: inline-block;
+	float: right;
+	width: auto;
+	height: 40px;
+	margin:0 1px;
+	color: #e4e4e4;
+	font-size: 25px;
+	line-height: 40px;
+	padding: 0 10px;
+	background-color: #1B1B1B;
+	transition: 0.2s;
+	
+}
+
+.button:hover{
+	background-color: #F1684E;
+	color:#1B1B1B;
+	transition: 0.2s;
+
+}
+
+.preview{
+	position: relative;
+	width: 1024px;
+	height:auto;
+	border: 0px solid red;
+	margin: 0px auto;
+	text-align: center;
+	font-size: 40px;
+	text-shadow: 0px 2px 3px #777;
+}
+
+.contant{
+	position: relative;
+	min-width: 1024px;
+	height:400px;
+	border: 0px solid red;
+	margin: 0px auto;
+
+	border: 10px solid transparent;
+    border-width: 10px 0;
+    background-color: lightblue;
+    background-color: hsla(0, 0%, 0%, 0);
+    background-image:
+        -webkit-linear-gradient(#1B1B1B, #1B1B1B),
+        -webkit-linear-gradient(top left, transparent 50.5%, #1B1B1B 50.5%),
+        -webkit-linear-gradient(top right, transparent 50.5%, #1B1B1B 50.5%),
+        -webkit-linear-gradient(bottom left, transparent 50.5%, #1B1B1B 50.5%),
+        -webkit-linear-gradient(bottom right, transparent 50.5%, #1B1B1B 50.5%);
+    background-image:
+        -moz-linear-gradient(#1B1B1B, #1B1B1B),
+        -moz-linear-gradient(top left, transparent 50.5%, #1B1B1B 50.5%),
+        -moz-linear-gradient(top right, transparent 50.5%, #1B1B1B 50.5%),
+        -moz-linear-gradient(bottom left, transparent 50.5%, #1B1B1B 50.5%),
+        -moz-linear-gradient(bottom right, transparent 50.5%, #1B1B1B 50.5%);
+    background-image:
+        linear-gradient(#1B1B1B, #1B1B1B),
+        linear-gradient(to bottom right, transparent 50.5%, #1B1B1B 50.5%),
+        linear-gradient(to bottom left, transparent 50.5%, #1B1B1B 50.5%),
+        linear-gradient(to top right, transparent 50.5%, #1B1B1B 50.5%),
+        linear-gradient(to top left, transparent 50.5%, #1B1B1B 50.5%);
+    background-repeat: repeat, repeat-x, repeat-x, repeat-x, repeat-x;
+    background-position: 0 0, 10px 0, 10px 0, 10px 100%, 10px 100%;
+    background-size: auto auto, 20px 20px, 20px 20px, 20px 20px, 20px 20px;
+    background-clip: padding-box, border-box, border-box, border-box, border-box;
+    background-origin: padding-box, border-box, border-box, border-box, border-box;
+}
+
+.footer{
+	position: relative;
+	min-width: 1024px;
+	height:100px;
+	border: 0px solid red;
+	margin: 0px auto;
+}
